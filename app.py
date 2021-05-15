@@ -54,7 +54,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 
 # this helps us get the theme settings
-import plotly.io as plt_io
+#import plotly.io as plt_io
 
 
 
@@ -1626,7 +1626,7 @@ def render_tab_clustering(tab):
                             clearable=False,
                             searchable=False,
                             style={"margin-left": 20, "margin-right": 10, "margin-top": 10, "margin-bottom": 10},
-                        )], style=dict(width='33%')),
+                        )], style=dict(width='28%')),
                     html.Label(['Y: '], style={'font-weight': 'bold', "text-align": "center"}),
                     html.Div(className='three columns', children=[
                         dcc.Dropdown(
@@ -1637,7 +1637,7 @@ def render_tab_clustering(tab):
                             clearable=False,
                             searchable=False,
                             style={"margin-left": 20, "margin-right": 10, "margin-top": 10, "margin-bottom": 10},
-                        )], style=dict(width='33%')),
+                        )], style=dict(width='28%')),
                     html.Label(['Z: '], style={'font-weight': 'bold', "text-align": "center"}),
                     html.Div(className='three columns', children=[
                         dcc.Dropdown(
@@ -1648,7 +1648,7 @@ def render_tab_clustering(tab):
                             clearable=False,
                             searchable=False,
                             style={"margin-left": 20, "margin-right": 10, "margin-top": 10, "margin-bottom": 10},
-                        )], style=dict(width='33%')),
+                        )], style=dict(width='28%')),
                     ],style={'marginBottom': 30}
             ),
 
